@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,div,ol,ul,dl,li,dd,dt,table,form,fieldset,legend,th,tr,td,h1,h2,h3,h4,h5,h6,img,input,textarea,figure{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"微软雅黑"，Arial;
+    background: #e9ecf3;
+}
+ul,ol{
+    list-style:none;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background: url(../img/dsjbj1.png);
+	background-size: 100% 100%;
+	padding: 60px 170px 0;
+}
+.top{
+	height: 80px;
+	width: 100%;
+	
+}
+.top-one,.top-two,.top-three{
+	width: 168px;
+	float:left;
+	margin-right: 35px;
+}
+.top-four,.top-five,.top-six{
+	width: 88px;
+	float:left;
+	margin-right: 35px;
+	
+}
+.top-info-top{
+	border-bottom: 2px solid #225f64;
+	height: 28px;
+	line-height: 28px;
+	width: 100%;
+	font-size: 11px;
+	color: #fff;
+}
+.top-info-top span{
+	width: 28px;
+	height: 28px;
+	background: url(../img/smallbg.jpg) no-repeat;
+	background-position: left top;
+	float: left;
+}
+.top-info-top b{
+	font-weight: 100;
+	font-size: 17px;
+}
+.top-info-btm{
+	font-size: 12px;
+	color: #11897d;
+	width: 100%;
+	text-align: center;
+}
+.btm{
+	width: 100%;
+
+}
+.btm-one{
+	height: 232px;
+	width: 100%;
+	margin-bottom: 70px;
+}
+.btm-one-left{
+	width: 478px;
+	height: 100%;
+	float: left;
+
+}
+#container{
+	width: 100%;
+	height:100%;
+}
+.btm-one-right{
+	padding: 0 32px;
+	height: 100%;
+	float: left;
+}
+.btm-one-right-top{
+	width: 100%;
+	height: 36px;
+	font-size: 16px;
+	color: #fff;
+	
+}
+.btm-one-right-info{
+	float: left;
+	width:130px;
+	height: 197px;
+	padding: 0;
+	margin-right: 35px;
+}
+#three{
+	margin-right: 0;
+}
+.btm-two{
+	height: 190px;
+	width: 100%;
+}
+.btm-two-left{
+	width: 478px;
+	height: 100%;
+	float: left;
+}
+.btm-two-left-top{
+	height: 36px;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+}
+.btm-two-left-btm{
+	height: 154px;
+	width:100% ;
+}
+.btm-two-right{
+	padding: 0 32px;
+	height: 100%;
+	float: left;
+	width: 524px;
+}
+.btm-two-right-top{
+	height: 36px;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+}
+.btm-two-right-top span{
+	color:#189583;
+}
+.btm-two-right-btm{
+	height: 154px;
+	width:100% ;
+}
